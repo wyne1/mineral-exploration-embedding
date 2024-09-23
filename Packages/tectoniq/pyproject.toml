@@ -1,0 +1,15 @@
+[project]
+name = "tectoniq"
+version = "1.0.0"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "universal-common"
+]
+
+[tool.setuptools.packages.find]
+include = ["tectoniq"]
